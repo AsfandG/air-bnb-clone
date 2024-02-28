@@ -21,11 +21,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ClientOnly>
-          <ToasterProvider />
-          <RegisterModal />
-          <Navbar />
-        </ClientOnly>
+        {/* <ClientOnly> */}
+        <ToasterProvider />
+        <RegisterModal />
+        <Navbar />f{/* </ClientOnly> */}
         {children}
       </body>
     </html>

@@ -77,7 +77,7 @@ const Modal = ({
           >
             <div className="translate h-full md:h-auto lg:h-auto border-0 shadow-lg rounded-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
               {/* Header */}
-              <div className="flex items-center justify-center relative border-b-[1px] rounded-t p-4">
+              <div className="flex items-center justify-center relative border-b-[1px] rounded-t p-2">
                 <button
                   onClick={handleClose}
                   className="absolute left-9 p-1 border-0 hover:opacity-70 transition"
@@ -88,9 +88,9 @@ const Modal = ({
                 <div className="text-lg font-semibold">{title}</div>
               </div>
               {/* Body */}
-              <div className="p-4 relative flex-auto">{body}</div>
+              <div className="p-2 relative flex-auto">{body}</div>
               {/* Footer */}
-              <div className="flex flex-col p-6 gap-2">
+              <div className="flex flex-col p-3 gap-2">
                 <div className="flex items-center flex-row gap-4 w-full">
                   {secondaryAction && secondaryActionLabel && (
                     <Button
@@ -107,6 +107,7 @@ const Modal = ({
                     onClick={handleSubmit}
                   />
                 </div>
+                {footer}
               </div>
             </div>
           </div>
