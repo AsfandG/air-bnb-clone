@@ -13,3 +13,12 @@ For connecting prisma with mongodb.
 4.Install Nextauth packages of prisma adapters
 
 ## Covered Video upto 1:55;
+
+## Authentication completed with social login.
+
+caught in login error on 12th or march. solved login credentials error on 12th of march.
+working on 13th of march. video completed upto: 2:44;
+
+## Categories UI created with selected category.
+
+video completed upto 3:01:
